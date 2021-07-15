@@ -24,6 +24,7 @@ function Header() {
         src="http://pngimg.com/uploads/amazon/amazon_PNG11.png"
         alt=""
       />
+      {/* <p>E-commerce</p> */}
       </Link>
 
       <div className="header__search">
@@ -38,14 +39,14 @@ function Header() {
             <span className="header__optionLineTwo">{user?"Sign out":"Sign in"}</span>
           </div>
         </Link>
-        <div className="header_option">
+        {/* <div className="header_option">
           <span className="header__optionLineOne">Returns</span>
           <span className="header__optionLineTwo">& Orders</span>
-        </div>
-        <div className="header_option">
+        </div> */}
+        {/* <div className="header_option">
           <span className="header__optionLineOne">Your</span>
           <span className="header__optionLineTwo">Prime</span>
-        </div>
+        </div> */}
         <Link to='/checkout'>
         <div className="header_optionBasket">
           <ShoppingBasketIcon />

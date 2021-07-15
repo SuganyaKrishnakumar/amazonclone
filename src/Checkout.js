@@ -30,10 +30,12 @@ function Checkout() {
           </div>
         
       </div>
-      <div className="checkout__right">
+     {basket.length? <div className="checkout__right">
+      
         <SubTotal />
            
-      </div>
+      </div>:''}
+     
     </div>
   );
 }

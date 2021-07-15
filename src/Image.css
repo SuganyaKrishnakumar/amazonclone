@@ -1,0 +1,107 @@
+/* .modal-otp-parent {
+  margin: 20px;
+}
+.modal-otp-parent .btn-primary {
+  background-color: #4b4bd6;
+  border-color: #4b4bd6;
+}
+.modal-otp-parent .btn-primary:hover {
+  background-color: rgba(75, 75, 214, 0.9);
+  border-color: rgba(75, 75, 214, 0.9);
+}
+.modal-otp-parent .resend-otp-base {
+  margin-top: 20px;
+}
+@media screen and (max-width: 992px) {
+  .modal-otp-parent .resend-otp-base {
+    margin: 0 0.6rem !important;
+  }
+}
+.modal-otp-parent {
+  display: flex;
+  flex-direction: column;
+}
+.modal-otp-parent .modal-otp-p {
+  color: gray;
+  text-align: center;
+}
+.modal-otp-parent .modal-otp-a {
+  border-bottom: 1px solid gray;
+  cursor: pointer;
+}
+.modal-otp-parent .modal-otp-p2 {
+  color: red;
+  text-align: center;
+}
+.margin-zero {
+  margin: 0%;
+}
+.custom-modal .modal-title {
+  width: 100%;
+  text-align: center;
+}
+
+.custom-modal-footer {
+  border: none;
+  display: flex;
+  justify-content: center;
+}
+
+.custom-modal-body {
+  display: flex;
+  justify-content: center;
+}
+.custom-modal-footer .btn-primary {
+  background-color: #4b4bd6;
+  border-color: #4b4bd6;
+  outline: none !important;
+}
+.custom-modal-footer .btn-primary:hover {
+  background-color: rgba(75, 75, 214, 0.9);
+  border-color: rgba(75, 75, 214, 0.9);
+}
+.custom-modal-footer .btn-primary:active {
+  background-color: rgba(75, 75, 214, 0.9) !important;
+  border-color: rgba(75, 75, 214, 0.9) !important;
+} */
+
+body {font-family: Arial, Helvetica, sans-serif;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}

@@ -7,6 +7,8 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Login from './Login';
 import { auth } from "./Firebase";
 import { useStateValue } from './StateProvider';
+ import Image from "./Image";
+
 
 function App() {
   const[{},dispatch] = useStateValue()
@@ -33,6 +35,10 @@ function App() {
       <Router>
       
         <Switch>
+        <Route path='/Image'>
+             {/* <Header /> */}
+             <Image />
+          </Route>
           <Route path='/Login'>
              <Login />
           </Route>
@@ -44,6 +50,7 @@ function App() {
             <Header />
             <Home />
           </Route>
+          
         </Switch>
       </Router>
     </div>
